@@ -122,7 +122,7 @@ def all_holidays_with_bbq(holiday_hash)
       #   if value =="BBQ"
       #     holiday_hash[season].keys
       #   end
-      
+
     }
   }.flatten.compact #remove nil in array
 end
