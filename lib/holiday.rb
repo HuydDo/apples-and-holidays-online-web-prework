@@ -117,13 +117,12 @@ def all_holidays_with_bbq(holiday_hash)
     holidays.map {|holiday,supply|
       if supply.include?("BBQ")
         holiday
-        # binding.pry
       end
       # supply.map {|value|
       #   if value =="BBQ"
       #     holiday_hash[season].keys
       #   end
-      }
+      
     }
   }.flatten.compact #remove nil in array
 end
